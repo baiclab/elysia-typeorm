@@ -1,7 +1,7 @@
 {
   "name": "@baiclab/elysia-typeorm",
   "description": "Plugin for Elysia for using TypeORM",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "author": {
     "name": "wrightjin",
@@ -12,15 +12,17 @@
     "type": "git",
     "url": "https://github.com/baiclab/elysia-typeorm"
   },
-  "module": "src/index.ts",
-  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
   "keywords": [
     "elysia",
     "typeorm",
     "orm"
   ],
   "scripts": {
-    "test": "bun test"
+    "test": "bun test",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "sqlite3": "^5.1.7",
