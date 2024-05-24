@@ -1,7 +1,7 @@
 {
   "name": "@baiclab/elysia-typeorm",
   "description": "Plugin for Elysia for using TypeORM",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "license": "MIT",
   "author": {
     "name": "wrightjin",
